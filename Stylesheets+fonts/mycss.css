@@ -26,18 +26,18 @@ h2{
         border-width:10px;
         border-radius:7px;
         width:760px;
-        margin:10px 225px 0px 180px;
+        margin:3% 25% 0% 15%;
         }
 p{
-        margin:0px 175px 0px 200px;
+        margin:auto;
         font-size:16px;
         color:white;
         text-align:center;
         font-family:sans-serif;
         }
 ul{
-        margin:20px 175px 30px 225px;
-        text-align:center;
+        margin:3% 17% 3% 17%;
+        text-align:left;
         color:#fac;
         }
 /* unvisited link */
