@@ -8,15 +8,17 @@ body{
         font-size:55px;
         color:White; 
         font-family:Lobster, Helveteca, Sans-serif, Monospace;
-        margin-right:-2%;
+        margin-right:-5%;
         margin-left:1%;
         }
 .imgh{
         border-width:5px;
         border-color:green;
+        border-style:solid;
         border-radius:50%;
         width:100px;
         height:100px;
+        margin-left:-10px;
         }
 h2{
         margin:30px 175px 0px 200px;
