@@ -1,245 +1,62 @@
-@font-face{
-	font-family:DynaGrotesk RC;
-	src:url("DynaGroteskRCBold.woff");
-	}
 body{
-	background-image:url("bg.jpg") !important;
-	background-size:cover;
-	position:relative;
-	background:no-repeat top fixed;
-	padding:0px 0px 0px 0px;
-	margin:0px 0px 0px 0px;
-	width:100%;
-	border-style:solid;
-	border-color:red;
-	border-width:0px;
-	}
-li{
-    display:inline;
-    float: right;
-	margin-right:0px;
-	font-size:18px;
-	font-weight:bold;
-	display: block;
-    padding: auto;
-    color: red;
-    text-align: center;
-    text-decoration: none;
-	}
-#nav{
-	display:inline block;
-	border-style:solid;
-	border-width:0px;
-	border-color:red;
-	opacity:0.8;
-	}
-#h1title{
-	background-color:rgb(97,118,201);
-	}
-#h1name{
-	color:rgb(255,0,0);
-	background-color:#333;
-	font-size:45px;
-	text-align:left;
-	font-family:serif;
-	margin:0px -1000px 0px 0px;
-	padding-left:5px;
-	font-stretch:3px;
-	font-weight:bold;
-	letter-spacing:2px;
-	}
-#spanahm{
-	color:rgb(0,255,0);
-	}
-#spanhead{
-	color:rgb(0,0,255);
-	}
-#ulnav{
-    background-color: #333;
-	position:top-right;
-	list-style-type:none;
-	margin:0px auto;
-	padding-right:0px;
-	padding-left:auto;
-	overflow:hidden;
-	}
-#lifind{
-	border-right-style:none;
-	border-right-width:0px;
-	}
-#Welcome{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	height:350px;
-	width:100%;
-	margin-top:50px;
-	font-family:DynaGrotesk RC;
-	font-weight:bold;
-	font-size:130px;
-	font-stretch:9px;
-	font-spacing:2px;
-	text-align:center;
-	color:Aqua;
-	}
-#divpwel{
-	margin-top:30px !important;
-	}
-#pwel{
-	margin:90px 305px;
-	}
-#pglad{
-	font-size:60px;
-	margin-top:99px;
-	margin-bottom:0px;
-	margin-left:0px;
-	margin-right:305px;
-	padding:0px;
-	}
-#phere{
-	font-size:60px;
-	margin-top:-25px;
-	margin-right:315px;
-	padding:0px;
-	}	
-#Home{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	width:100%;
-	height:512px;
-	margin-top:0px;
-	}
-#meimg{
-	border-radius:50%;
-	height:450px;
-	width:450px;
-	margin:-190px 90px 50px 750px;
-	}
-#meintroh{
-	color:Blue;
-	margin:90px 600px 50px -600px;
-	text-align:center;
-	font-weight:bold;
-	vertical-align: middle;
-	}
-#Projects{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	width:100%;
-	height:750px;
-	}
-#h4line{
-	text-align:center !important;
-	font-size:25px;
-	font-weight:bold;
-	margin:30px 470px;
-	color:Yellow;
-	}
-#caroinner{
-	width:800px;
-	Height:630px;
-	margin:auto;
-	}
-#caroimg{
-	width:800px;
-	height:630px;
-	}
-#Contact{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	width:100%;
-	height:512px;
-	}
-h5{
-	text-align:center !important;
-	font-size:25px !important;
-	font-weight:bold !important;
-	margin:20px 470px !important;
-	color:Cyan !important;
-	}
-#formfull{
-	margin-top:30px;
-	}
-#formmarg{
-	margin-left:35%;
-	}
-input{
-	border-radius:5px;
-	margin:3px auto !important;
-	width:400px;
-	height:50px;
-	color:rgb(34,64,202) !important;
-	background-color:rgb(22,214,142);
-	font-size:24px !important;
-	text-align:left;
-	padding:10px;
-	}
-textarea {
-	border-radius:5px;
-	margin:3px auto !important;
-	width:400px;
-	height:50px;
-	color:rgb(34,64,202) !important;
-	background-color:rgb(22,214,142);
-	font-size:24px !important;
-	text-align:left;
-	padding:5px;
-	resize:none !important;
-	overflow:auto;
-	rows:50;
-	columns:auto;
-	}
-#contp{
-	font-size:30px;
-	font-family:Ariel;
-	color:Red;
-	margin-right:17%;
-	}
-#Find-Us{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	width:100%;
-	height:512px;
-	}
-h6{
-	text-align:center !important;
-	font-size:25px !important;
-	font-weight:bold !important;
-	margin:20px 470px !important;
-	color:White !important;
-	}
-#pfind{
-	text-align:center !important;
-	font-size:20px;
-	color:#db7093;
-	}
-#findbtn{
-	font-size:40px;
-	width:60px;
-	height:60px;
-	border-radius:50%;
-	margin:auto;
-	padding:2px 4px;
-	text-align:center;
-	}
-#findbtndiv{
-	margin:3% 34%;
-	}
-#Net-Neutrality{
-	background-repeat:no-repeat;
-	background-position:top;
-	background-size:cover;
-	width:100%;
-	height:auto;
-	}
-.h7{
-	text-align:center !important;
-	font-size:25px;
-	font-weight:bold;
-	margin:20px 470px;
-	color:Black;
-	}
+        background-color:white;
+        padding:60px 60px 60px 60px;
+        }
+.Heading{
+        background-color:grey;
+        text-align:center;
+        font-size:55px;
+        color:White; 
+        font-family:Lobster, Helveteca, Sans-serif, Monospace;
+        }
+.imgh{
+        border-width:5px;
+        border-color:green;
+        border-radius:50%;
+        width:100px;
+        height:100px;
+        }
+h2{
+        margin:30px 175px 0px 200px;
+        text-align:center;
+        }
+.borderimage{
+        border-color:black;
+        border-style:solid;
+        border-width:10px;
+        border-radius:7px;
+        width:760px;
+        margin:10px 225px 0px 180px;
+        }
+p{
+        margin:0px 175px 0px 200px;
+        font-size:16px;
+        color:white;
+        text-align:center;
+        font-family:sans-serif;
+        }
+ul{
+        margin:20px 175px 30px 225px;
+        text-align:center;
+        color:#fac;
+        }
+/* unvisited link */
+a:link{
+        color:white;
+        text-decoration:underline;
+        }
+/* visited link */
+a:visited{
+        color:purple;
+        text-decoration:underline;
+        }
+/* mouse over link */
+a:hover{
+        color:blue;
+        text-decoration:underline;
+        }
+/* selected link */
+a:active{
+        color:yellow;
+        text-decoration:underline;
+        }
