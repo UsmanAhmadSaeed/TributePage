@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  padding: 5%;
+}
+#img-div{
+  margin:3% 17%;
+  padding:auto;
+  width:67%;
+  display:flex;
+  flex-flow:column wrap;
+}
+.borderimage {
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 7px;
+}
+#heading{
+	padding: 5%;
+	display:flex;
+	flex-flow: row wrap;
+	width:100%;
+}
+.imgh {
+  border-width: 5px;
+  border-color: green;
+  border-radius: 50%;
+  width: 100%;
+  max-width:100%;
+  margin: auto;
+  display: block;
+  height: auto;
+}
+h1 {
+  font-family:Lobster, Helveteca, Sans-serif, Monospace;
+}
+p#img-caption{
+  margin: 0px 175px 0px 200px;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  text-align:center;
+  margin:auto;
+  justify-content:center;
+}
+ul {
+  margin: 3% 5%;
+  color: #fac;
+  text-align:justified;
+}
+#footer{
+	color:Green;
+	font-size:25px;
+	padding-bottom:1.7rem;
+	margin: 2%;
+}
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  text-decoration: underline;
+}
+.profile-pic .img-responsive {
+  margin: auto;
+  max-width: 100%;
+  width:100%;
+  display: block;
+  height: auto;
+}
+img{
+  width:auto;
+  max-width:100%;
+  margin:auto;
+  height:auto;
+}
